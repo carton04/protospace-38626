@@ -3,4 +3,7 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
     @prototypes = @user.prototypes
   end
+
+  def create
+  end
 end
